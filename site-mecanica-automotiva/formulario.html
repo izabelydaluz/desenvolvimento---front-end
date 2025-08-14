@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body bgcolor="#EEE9E9">
+
+    
+    <font color = "#8B8989">
+        <center>
+            <dfn ><h1>formulario</h1></dfn>
+        </center>
+    </font>
+    <hr color="#8B8989">
+    <!-- comando para criar um formulario-->
+    <form name="formulario" method="post" action="" > 
+        <fieldset>
+            nome: <input type="text" name="nome" id="nome" maxlength="30" size="30">
+            <br>
+            endereço: <input type="text" name="endereco" id="endereco" maxlength="30" size="30">
+            <br>
+            Bairro: <input type="text" name="Bairro" id="Bairro" maxlength="30" size="30">
+            <br>
+            cidade: <input type="text" name="cidade" id="cidade" maxlength="30" size="30">
+            <br>
+            CEP: <input type="text" name="CEP" id="CEP" maxlength="30" size="30">
+            <br>
+            E-mail: <input type="text" name="EMAIL" id="EMAIL" maxlength="30" size="30">
+            <BR>
+            Telefone Residencial: <input type="text" name="Telefone" id="Telefone" maxlength="30" size="30">
+            <BR>
+            Telefone Celular: <input type="text" name="Celular" id="Celular" maxlength="30" size="30">
+            <BR>
+            sexo: <input type="radio" name="sexo" id="sexo"> feminino
+                    <input type="radio" name="sexo" id="sexo"> masculino    
+            <br>
+            Estado Civil:<input type="radio" name="solteiro" id="solteiro"> solteiro
+                    <input type="radio" name="casado" id="casado"> casado
+                    <input type="radio" name="viúvo" id="viúvo"> viúvo
+                    <input type="radio" name="divorciado" id="divorciado"> divorciado
+            <br>
+            Data Nascimento:: <input type="date" name="data" id="data">
+            <br>
+
+            Estado: <select name="Estado" id="Estado">
+                <option value="PR">parana</option>
+                <option value="BA">bahia</option>
+                <option value="RS">rio grande do sul</option>
+                <option value="ES">espirito santo</option>
+                <option value="SC">santa catarina</option>
+                </select>
+            <br>
+            pais: <select name="pais" id="pais">
+                <option value="CH">suiça</option>
+                <option value="CA">canada</option>
+                <option value="JP">japão</option>
+                <option value="US">estados unidos</option>
+                <option value="SI">eslovenia</option>
+                </select>
+            <br>
+            <!-- botao-->
+            <input type="submit" name="gravar" id="gravar" value="gravar">
+            <input type="reset" name="limpar" id="limpar" value="limpar">
+            <br>
+
+            <hr color="#8B8989">
+            <font color = "#8B8989">
+                <center>
+                    <dfn ><h1>escolaridade</h1></dfn>
+                </center>
+            </font>
+            <hr color="#8B8989">
+
+            Nível de Educação: <input type="checkbox" name="nivel" id="nivel"> Ensino Fundamental
+                               <input type="checkbox" name="nivel" id="nivel"> Técnico
+                               <input type="checkbox" name="nivel" id="nivel"> Faculdade
+            <br>
+            periodo: <input type="checkbox" name="periodo" id="periodo"> matutino
+                     <input type="checkbox" name="periodo" id="periodo"> vespertino
+                     <input type="checkbox" name="periodo" id="periodo"> noturno
+            <br>
+            curso escolhido: <select name="curso" id="curso">
+                <option value="DG">design</option>
+                <option value="MULT">multimidia</option>
+                <option value="INFO">informatica</option>
+                <option value="ADM">adiministração</option>
+                <option value="QUIM">quimica</option>
+                </select>
+            <br>
+
+            <!-- botao-->
+            <input type="submit" name="gravar" id="gravar" value="gravar">
+            <input type="reset" name="limpar" id="limpar" value="limpar">
+            <br>
+            
+        </fieldset>
+
+
+</body>
+</html>
