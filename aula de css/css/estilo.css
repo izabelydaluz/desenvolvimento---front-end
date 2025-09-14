@@ -1,0 +1,768 @@
+body{
+    margin: 0;
+    opacity: 1;
+    background-color: black;
+    
+}
+
+#topo{
+    background-color: black;
+    width: 100%;
+    height: 99px;
+    flood-opacity: 1;
+    opacity : 0.7;
+    font-style: italic;
+    text-align: right;
+    z-index: -1;
+    color:aliceblue;
+    font-size:large;
+
+    
+    
+}
+.logo{
+    left: auto;
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+}
+.nome{
+    display: inline-block;
+    color: rgb(176, 201, 129);
+}
+.letra{
+    display: inline-block;
+    margin-left: 360px;
+    text-align: center;
+    
+}
+.escolha:hover{
+    color: #9AFF9A;
+
+}
+a{
+    color: rgb(176, 201, 129);
+    text-decoration: none;
+    
+    
+}
+#linha{
+    width: 1000px;
+    height: 120px;
+    display: flex;
+    
+    
+}
+#fundo{
+    opacity : 0.7;
+    position: relative;
+    
+
+}
+.imagem{
+    width: 100%;
+    height: 840px;
+    
+}
+
+/* meio*/
+.frase{
+    color: rgb(176, 201, 129);
+    
+}
+/* quadrado 1*/
+#historia{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 5%;
+    text-align: center;
+    
+    margin-top: 140px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px black;     
+}
+#titulo{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 8%;
+    border-radius: 22px;
+    text-align: center;
+}
+.livro{
+    width: 350px;
+    height: 150px;
+    opacity: 1;
+}
+.texto1{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+#botao{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    border-radius: 22px;
+    text-align: center;
+}
+.botao2:hover{
+    
+    color: #9AFF9A;
+}
+#letras{
+    height: 100px;
+    width: 400px;
+    
+    margin-left: 8%;
+    text-align: center;
+}
+/* quadrado 2*/
+#localizaçao{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 35%;
+    text-align: center;
+
+    margin-top: 140px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px black;   
+}
+#botao2{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    
+    border-radius: 22px;
+    text-align: center;
+}
+.locali{
+    width: 350px;
+    height: 150px;
+    opacity: 1;
+}
+.texto2{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+/* quadrado 3*/
+#fundador{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 65%;
+    text-align: center;
+
+    margin-top: 140px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px black;   
+}
+#botao3{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    margin-top: 40px;
+    border-radius: 22px;
+    text-align: center;
+}
+.texto3{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+<!----------------------------------------cardapio
+#fundo-cardapio{
+    opacity : 0.7;
+    position: relative;
+}
+.imagem-cardapio{
+    width: 100%;
+    height: 1020px;
+
+}
+.coxinha{
+    width: 350px;
+    height: 200px;
+    opacity: 1;
+}
+#bandeira{
+    background-color: #5a7226;
+    height: 50px;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 35%;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57); 
+    z-index: 1;
+    margin-bottom: 20px;
+}
+/* quadrado 1*/
+#item1{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 5%;
+    text-align: center;
+    
+    margin-top: 140px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57);  
+}
+#botao-cardapio{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    border-radius: 22px;
+    text-align: center;
+}
+.carrinho{
+    width: 50px;
+    height: 40px;
+    margin-left: -340px;
+    display: inline-block;
+    margin-top: -340px;
+    margin-bottom: 30px;
+}
+.preco{
+    color: rgb(176, 201, 129);
+    margin-top: 0;
+    
+}
+#item2{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 35%;
+    text-align: center;
+
+    margin-top: 140px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57);   
+}
+.lasanha{
+    width: 330px;
+    height: 180px;
+    opacity: 1;
+}
+#botao-cardapio2{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -0px;
+}
+#item3{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 65%;
+    text-align: center;
+
+    margin-top: 140px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57);  
+}
+.doce{
+    width: 330px;
+    height: 180px;
+    opacity: 1;
+}
+#botao-cardapio3{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -0px;
+}
+
+#item4{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 5%;
+    text-align: center;
+    
+    margin-top: 600px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57);  
+}
+#botao-cardapio4{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -0px;
+}
+#item5{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 35%;
+    text-align: center;
+
+    margin-top: 600px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57); 
+}  
+.bolo{
+    width: 330px;
+    height: 200px;
+    opacity: 1;
+}
+#botao-cardapio5{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#item6{
+    background-color: #5a7226;
+    height: 400px;
+    width: 25%;
+    margin-left: 65%;
+    text-align: center;
+
+    margin-top: 600px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57);  
+}
+.sorvete{
+    width: 330px;
+    height: 210px;
+    opacity: 1;
+}
+#botao-cardapio6{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 0;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: -3;
+    margin-bottom: 0;
+}
+/* ------------------------contato */
+
+#contato{
+    background-color: #5a7226;
+    height: 700px;
+    width: 800px;
+    margin-left: 26%;
+    text-align: center;
+    margin-top: 110px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 10px 10px 10px rgb(57, 57, 57);  
+}
+.letras-contato h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+    color: rgb(32, 56, 7);
+    margin-bottom: 15px;
+}
+.letras-contato p {
+    font-size: 1.1em;
+    margin: 8px 0;
+    color: rgb(32, 56, 7);
+}
+
+.letras-contato a {
+    color: rgb(32, 56, 7);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.letras-contato a:hover {
+    color: rgb(32, 56, 7);
+}
+
+.cardapio-hora {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.cardapio-hora h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+    color: rgb(176, 201, 129);;
+    margin-bottom: 15px;
+}
+
+.cardapio-hora ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cardapio-hora li {
+    font-size: 1.1em;
+    margin: 6px 0;
+    color: rgb(32, 56, 7);
+}
+
+#titulo-cardapio{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 23%;
+    border-radius: 22px;
+    text-align: center;
+}
+
+.frase-cardapio{
+    color: rgb(176, 201, 129);
+    
+}
+#bandeira-contato{
+    background-color: #5a7226;
+    height: 50px;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 35%;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57); 
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.formulario-contato{
+    background-color: #5a7226;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid  #5a7226;
+    margin-top: -20px;
+}
+
+#titulo-contato{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-top: -20px;
+    margin-left: 23%;
+    border-radius: 22px;
+    text-align: center;
+}
+
+.frase-contato{
+    color: rgb(176, 201, 129);
+    
+}
+.formulario-contato p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(26, 50, 4);
+}
+
+.formulario-contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(26, 50, 4);
+}
+
+.formulario-contato input, 
+.formulario-contato textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(26, 50, 4);
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+.formulario-contato button {
+    background-color: rgb(26, 50, 4);
+    color: #395b18;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+.formulario-contato button:hover {
+    background-color: rgb(68, 116, 26);
+}
+#fundo-contato{
+    opacity : 0.7;
+    position: relative;
+    
+
+}
+.imagem-contato{
+    width: 100%;
+    height: 1060px;
+    
+}
+/* ------------------historia */
+#fundo-historia{
+    opacity : 0.7;
+    position: relative;
+    z-index: 0;
+}
+.imagem-historia{
+    width: 100%;
+    height: 750px;
+    z-index: 0;
+    
+}
+#historia-h{
+    background-color: #5a7226;
+    height: 700px;
+    width: 850px;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57);  
+}
+#bandeira-h1{
+    background-color: #5a7226;
+    height: 50px;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 35%;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57); 
+    z-index: 2;
+    margin-bottom: 20px;
+}
+#imagem-h1{
+
+    margin-left: 500px;
+    width: 300px;
+    height: 300px;
+    margin-top: -140px;
+}
+.imagem-h1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+#titulo-desafio{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 48%;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: -10px;
+    z-index: 2;
+}
+.texto1-h{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+#letras-h{
+    height: 100px;
+    width: 400px;
+    margin-left: 48%;
+    text-align: center;
+}
+#imagem-h2{
+
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+    margin-top: -250px;
+    
+}
+.imagem-h2{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+#titulo-desafio{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 48%;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: -10px;
+    z-index: 2;
+}
+#titulo-dica{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 28%;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: -10px;
+    z-index: 2;
+}
+#letras-h2{
+    height: 60px;
+    width: 800px;
+    margin-left: 2%;
+    text-align: center;
+    
+}
+.texto1-h2{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+/* ------------------localizacao */
+
+#fundo-loca{
+    opacity : 0.7;
+    position: relative;
+    z-index: 0;
+}
+.imagem-loca{
+    width: 100%;
+    height: 750px;
+    z-index: 0;
+    
+}
+#titulo-c{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(50, 90, 10);
+    margin-left: 28%;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: -10px;
+    z-index: 2;
+}
+#localizacao{
+    background-color: #5a7226;
+    height: 700px;
+    width: 850px;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 20px;
+    z-index: 1;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57);  
+}
+#bandeira-loca{
+    background-color: #5a7226;
+    height: 50px;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 35%;
+    box-shadow: 5px 5px 10px rgb(57, 57, 57); 
+    z-index: 2;
+    margin-bottom: 20px;
+}
+.map {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    border: 3px solid #5a7226;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.map p{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#letras-c{
+    height: 60px;
+    width: 800px;
+    margin-left: 2%;
+    text-align: center;
+    
+    
+}
+.texto1-c{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
