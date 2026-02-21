@@ -1,0 +1,304 @@
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #000; /* Define a cor como preto */
+    text-decoration: none;
+}
+
+body{
+  background:#f6f7fb;
+  color:#222;
+}
+
+/* HEADER */
+header{
+  background:#fff;
+  box-shadow:0 4px 20px rgba(0,0,0,.05);
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.nav{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:15px 20px;
+}
+
+.nav img{
+  height:45px;
+}
+
+/* MENU */
+.menu{
+  list-style:none;
+  display:flex;
+  gap:25px;
+}
+
+.menu li a{
+  text-decoration:none;
+  color:#333;
+  font-weight:500;
+  transition:.3s;
+  position:relative;
+}
+
+.menu li a::after{
+  content:'';
+  position:absolute;
+  left:0;
+  bottom:-6px;
+  width:0%;
+  height:2px;
+  background:#e995cd;
+  transition:.3s;
+}
+
+.menu li a:hover::after{
+  width:100%;
+}
+
+.menu li a:hover{
+  color:#e995cd;
+}
+
+/* HERO */
+.hero{
+  height:70vh;
+  background:linear-gradient(120deg,#e995cd,#d07fb5);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#fff;
+  padding:20px;
+
+
+}
+
+.hero-content{
+  animation:fadeUp 1s ease;
+
+}
+
+
+.hero h1{
+  font-size:3rem;
+  margin-bottom:15px;
+}
+
+.hero p{
+  max-width:600px;
+  margin:auto;
+  margin-bottom:25px;
+  font-size:1.1rem;
+}
+
+/* BUTTON */
+.btn-hero{
+  background:#fff;
+  color:#e995cd;
+  padding:12px 28px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  transition:.3s;
+  display:inline-block;
+}
+
+.btn-hero:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+/* CATEGORIAS */
+.categorias{
+  max-width:1200px;
+  margin:60px auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:25px;
+  padding:0 20px;
+}
+
+.card{
+  background:#fff;
+  border-radius:20px;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 8px 25px rgba(0,0,0,.05);
+  transition:.4s;
+  cursor:pointer;
+  position:relative;
+  overflow:hidden;
+}
+
+.card::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(120deg,#6c63ff,#9d97ff);
+  opacity:0;
+  transition:.4s;
+  z-index:0;
+}
+
+.card:hover::before{
+  opacity:.08;
+}
+
+.card:hover{
+  transform:translateY(-10px) scale(1.02);
+}
+
+.card img{
+  width:80px;
+  margin-bottom:15px;
+  position:relative;
+  z-index:1;
+}
+
+.card h3{
+  font-weight:600;
+  position:relative;
+  z-index:1;
+}
+
+
+/* SEÇÕES */
+.tops{
+  max-width:1200px;
+  margin:40px auto;
+  padding:0 20px;
+}
+
+.tops h2{
+  text-align:center;
+  margin-bottom:30px;
+  font-size:2rem;
+}
+
+/* PRODUTOS */
+.produtos{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+
+.produto{
+  background:#fff;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 8px 25px rgba(0,0,0,.05);
+  transition:.4s;
+  cursor:pointer;
+}
+
+.produto:hover{
+  transform:translateY(-12px);
+  box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.produto img{
+  width:100%;
+  height:260px;
+  object-fit:cover;
+  transition:.4s;
+}
+
+.produto:hover img{
+  transform:scale(1.05);
+}
+
+.produto .info{
+  padding:15px;
+}
+
+.produto h4{
+  margin-bottom:8px;
+  font-size:1.1rem;
+}
+
+.produto span{
+  color:#e995cd;
+  font-weight:600;
+}
+
+/* FORM */
+.form-contato{
+  max-width:500px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.form-contato input,
+.form-contato button{
+  padding:12px 15px;
+  border-radius:10px;
+  border:1px solid #ddd;
+  font-size:1rem;
+}
+
+.form-contato input:focus{
+  outline:none;
+  border-color:#93477a;
+}
+
+.form-contato button{
+  background:#93477a;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  transition:.3s;
+  font-weight:600;
+}
+
+.form-contato button:hover{
+  background:#93477a;
+  transform:translateY(-3px);
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  color:#777;
+  font-size:.9rem;
+  margin-top:40px;
+}
+
+/* ANIMAÇÕES */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(40px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+/* SCROLL */
+.hidden{
+  opacity:0;
+  transform:translateY(40px);
+  transition:1s;
+}
+
+.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+/* RESPONSIVO */
+@media(max-width:768px){
+  .hero h1{font-size:2.2rem;}
+  .menu{gap:15px;}
+}
